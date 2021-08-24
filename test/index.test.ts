@@ -1,3 +1,5 @@
 describe('index', () => {
-  expect(1).toBe(1)
+  it('hi jest', () => {
+    expect(1).toBe(1)
+  })
 })
