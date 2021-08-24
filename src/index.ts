@@ -3,7 +3,6 @@ import { Options } from './types'
 
 export default createUnplugin<Options>(options => ({
   name: 'unplugin-starter',
-  enforce: 'post',
   transformInclude(id) {
     return id.endsWith('main.ts')
   },
