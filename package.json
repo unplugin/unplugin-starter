@@ -65,25 +65,25 @@
     "test:update": "jest -u"
   },
   "dependencies": {
-    "unplugin": "^0.0.8"
+    "unplugin": "^0.2.7"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.7.0",
     "@types/jest": "^27.0.1",
-    "@types/node": "^16.7.1",
+    "@types/node": "^16.7.10",
     "bumpp": "^6.0.6",
     "eslint": "^7.32.0",
     "eslint-plugin-jest": "^24.4.0",
     "esno": "^0.9.1",
     "fast-glob": "^3.2.7",
-    "jest": "^27.0.6",
+    "jest": "^27.1.0",
     "nodemon": "^2.0.12",
     "rimraf": "^3.0.2",
     "rollup": "^2.56.3",
     "ts-jest": "^27.0.5",
     "tsup": "^4.14.0",
-    "typescript": "^4.3.5",
-    "vite": "^2.5.0",
-    "webpack": "^5.51.1"
+    "typescript": "^4.4.2",
+    "vite": "^2.5.3",
+    "webpack": "^5.51.2"
   }
 }
