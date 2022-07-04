@@ -3,6 +3,15 @@
   "version": "0.1.0",
   "packageManager": "pnpm@7.1.1",
   "description": "Register global imports on demand for Vite and Webpack",
+  "license": "MIT",
+  "homepage": "https://github.com/antfu/unplugin-starter#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antfu/unplugin-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/antfu/unplugin-starter/issues"
+  },
   "keywords": [
     "unplugin",
     "vite",
@@ -10,18 +19,6 @@
     "rollup",
     "transform"
   ],
-  "homepage": "https://github.com/antfu/unplugin-starter#readme",
-  "bugs": {
-    "url": "https://github.com/antfu/unplugin-starter/issues"
-  },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/antfu/unplugin-starter.git"
-  },
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "types": "index.d.ts",
   "exports": {
     ".": {
       "require": "./dist/index.js",
@@ -53,9 +50,9 @@
     },
     "./*": "./*"
   },
-  "files": [
-    "dist"
-  ],
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "index.d.ts",
   "typesVersions": {
     "*": {
       "*": [
@@ -64,6 +61,9 @@
       ]
     }
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch src",
