@@ -106,3 +106,18 @@ module.exports = {
 ```
 
 <br></details>
+
+<details>
+<summary>esbuild</summary><br>
+
+```ts
+// esbuild.config.js
+import { build } from 'esbuild'
+import Starter from 'unplugin-starter/esbuild'
+
+build({
+  plugins: [Starter()],
+})
+```
+
+<br></details>
