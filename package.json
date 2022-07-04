@@ -21,7 +21,7 @@
   },
   "main": "dist/index.js",
   "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
+  "types": "index.d.ts",
   "exports": {
     ".": {
       "require": "./dist/index.js",
@@ -50,9 +50,16 @@
     "./*": "./*"
   },
   "files": [
-    "dist",
-    "*.d.ts"
+    "dist"
   ],
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/*",
+        "./*"
+      ]
+    }
+  },
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch src",
