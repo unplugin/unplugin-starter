@@ -12,7 +12,7 @@ To use this template, clone it down using:
 npx degit antfu/unplugin-starter my-unplugin
 ```
 
-And do a global replace of `unplugin-starter` with your plugin name.
+And do a global replacement of `unplugin-starter`` with your plugin name.
 
 Then you can start developing your unplugin 🔥
 
@@ -80,11 +80,11 @@ module.exports = {
 
 ```ts
 // nuxt.config.js
-export default {
-  buildModules: [
+export default defineNuxtConfig({
+  modules: [
     ['unplugin-starter/nuxt', { /* options */ }],
   ],
-}
+})
 ```
 
 > This module works for both Nuxt 2 and [Nuxt Vite](https://github.com/nuxt/vite)
