@@ -12,7 +12,7 @@ To use this template, clone it down using:
 npx degit unplugin/unplugin-starter my-unplugin
 ```
 
-And do a global replacement of `unplugin-starter`` with your plugin name.
+And do a global replacement of `unplugin-starter` with your plugin name.
 
 Then you can start developing your unplugin 🔥
 
