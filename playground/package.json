@@ -4,7 +4,7 @@
     "dev": "nodemon -w '../src/**/*.ts' -e .ts -x vite"
   },
   "devDependencies": {
-    "vite": "^4.4.9",
-    "vite-plugin-inspect": "^0.7.38"
+    "vite": "^5.0.4",
+    "vite-plugin-inspect": "^0.8.1"
   }
 }
