@@ -8,5 +8,6 @@
     "strict": true,
     "strictNullChecks": true,
     "resolveJsonModule": true
-  }
+  },
+  "exclude": ["dist"]
 }
