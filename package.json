@@ -101,6 +101,7 @@
   "peerDependencies": {
     "@nuxt/kit": "^3",
     "@nuxt/schema": "^3",
+    "@farmfe/core": ">=1",
     "esbuild": "*",
     "rollup": "^3",
     "vite": ">=3",
@@ -123,6 +124,9 @@
       "optional": true
     },
     "@nuxt/schema": {
+      "optional": true
+    },
+    "@farmfe/core": {
       "optional": true
     }
   },
