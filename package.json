@@ -99,9 +99,9 @@
     "test": "vitest"
   },
   "peerDependencies": {
+    "@farmfe/core": ">=1",
     "@nuxt/kit": "^3",
     "@nuxt/schema": "^3",
-    "@farmfe/core": ">=1",
     "esbuild": "*",
     "rollup": "^3",
     "vite": ">=3",
@@ -123,10 +123,10 @@
     "@nuxt/kit": {
       "optional": true
     },
-    "@nuxt/schema": {
+    "@farmfe/core": {
       "optional": true
     },
-    "@farmfe/core": {
+    "@nuxt/schema": {
       "optional": true
     }
   },
