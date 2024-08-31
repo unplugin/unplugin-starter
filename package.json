@@ -53,6 +53,10 @@
       "import": "./dist/nuxt.js",
       "require": "./dist/nuxt.cjs"
     },
+    "./farm": {
+      "import": "./dist/farm.js",
+      "require": "./dist/farm.cjs"
+    },
     "./types": {
       "import": "./dist/types.js",
       "require": "./dist/types.cjs"
@@ -85,6 +89,7 @@
     "test": "vitest"
   },
   "peerDependencies": {
+    "@farmfe/core": ">=1",
     "@nuxt/kit": "^3",
     "@nuxt/schema": "^3",
     "esbuild": "*",
@@ -93,6 +98,9 @@
     "webpack": "^4 || ^5"
   },
   "peerDependenciesMeta": {
+    "@farmfe/core": {
+      "optional": true
+    },
     "@nuxt/kit": {
       "optional": true
     },
