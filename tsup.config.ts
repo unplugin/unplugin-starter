@@ -1,7 +1,7 @@
 import type { Options } from 'tsup'
 
 export default <Options>{
-  entryPoints: [
+  entry: [
     'src/*.ts',
   ],
   clean: true,
