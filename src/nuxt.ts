@@ -1,8 +1,8 @@
+import type { NuxtModule } from '@nuxt/schema'
 import type { Options } from './types'
 import { addVitePlugin, addWebpackPlugin, defineNuxtModule } from '@nuxt/kit'
 import vite from './vite'
 import webpack from './webpack'
-import '@nuxt/schema'
 
 export interface ModuleOptions extends Options {
 
@@ -22,4 +22,4 @@ export default defineNuxtModule<ModuleOptions>({
 
     // ...
   },
-})
+}) as ReturnType<NuxtModule<ModuleOptions>>

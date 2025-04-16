@@ -1,4 +1,4 @@
-import type { UnpluginFactory } from 'unplugin'
+import type { UnpluginFactory, UnpluginInstance } from 'unplugin'
 import type { Options } from './types'
 import { createUnplugin } from 'unplugin'
 
@@ -12,6 +12,6 @@ export const unpluginFactory: UnpluginFactory<Options | undefined> = options => 
   },
 })
 
-export const unplugin = /* #__PURE__ */ createUnplugin(unpluginFactory)
+export const unplugin: UnpluginInstance<Options | undefined> = /* #__PURE__ */ createUnplugin(unpluginFactory)
 
 export default unplugin
