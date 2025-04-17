@@ -22,4 +22,4 @@ export default defineNuxtModule<ModuleOptions>({
 
     // ...
   },
-}) as ReturnType<NuxtModule<ModuleOptions>>
+}) as NuxtModule<ModuleOptions>
