@@ -3,4 +3,4 @@ import type { Options } from './types'
 import { createFarmPlugin } from 'unplugin'
 import { unpluginFactory } from '.'
 
-export default createFarmPlugin(unpluginFactory) as UnpluginInstance<Options>['farm']
+export default createFarmPlugin(unpluginFactory) as UnpluginInstance<Options | undefined>['farm']
