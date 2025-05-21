@@ -79,7 +79,7 @@
   ],
   "scripts": {
     "build": "tsdown",
-    "dev": "tsdown --watch src",
+    "dev": "tsdown",
     "lint": "eslint .",
     "play": "npm -C playground run dev",
     "prepublishOnly": "npm run build",
@@ -131,7 +131,7 @@
     "eslint": "^9.20.0",
     "nodemon": "^3.1.9",
     "rollup": "^4.34.6",
-    "tsdown": "^0.6.10",
+    "tsdown": "^0.12.0",
     "tsx": "^4.19.2",
     "typescript": "^5.7.3",
     "vite": "^6.1.0",
