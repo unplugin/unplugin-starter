@@ -79,7 +79,7 @@
   ],
   "scripts": {
     "build": "tsdown",
-    "dev": "tsdown",
+    "dev": "tsdown -w",
     "lint": "eslint .",
     "play": "npm -C playground run dev",
     "prepublishOnly": "npm run build",
