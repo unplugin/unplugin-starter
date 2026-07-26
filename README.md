@@ -60,6 +60,22 @@ export default {
 <br></details>
 
 <details>
+<summary>Rolldown</summary><br>
+
+```ts
+// rolldown.config.js
+import Starter from 'unplugin-starter/rolldown'
+
+export default {
+  plugins: [
+    Starter({ /* options */ }),
+  ],
+}
+```
+
+<br></details>
+
+<details>
 <summary>Webpack</summary><br>
 
 ```ts
