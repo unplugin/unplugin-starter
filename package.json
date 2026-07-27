@@ -26,6 +26,7 @@
     "./esbuild": "./dist/esbuild.js",
     "./farm": "./dist/farm.js",
     "./nuxt": "./dist/nuxt.js",
+    "./rolldown": "./dist/rolldown.js",
     "./rollup": "./dist/rollup.js",
     "./rspack": "./dist/rspack.js",
     "./types": "./dist/types.js",
